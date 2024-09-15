@@ -4,12 +4,12 @@ li {
 
 .notFound {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../../assets/perrito.jpg");
-  background-size: cover;
-  height: 100vh;
+  url("../src/assets/404.jpg");
+background-size: cover;
+height: 100vh;
 }
 
-.volver-inicio {
+.volver-inicio{
   text-decoration: none;
   font-weight: bold;
   font-size: 30px;
@@ -22,21 +22,21 @@ li {
 }
 
 .navbar {
-  background: #00698f;
+  background: #b83517;
 }
-.logo-nombre {
+.logo-nombre{
   color: #fff;
   font-weight: bold;
   text-decoration: none;
   font-size: 2rem;
 }
-.logo-nombre:hover {
+.logo-nombre:hover{
   color: rgb(207, 207, 207);
 }
 
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../src/assets/Header.jpg");
+    url("../src/assets/header.jpg");
   background-size: cover;
   height: 40vh;
 }
@@ -47,17 +47,4 @@ h1 {
 
 h6 {
   font-size: 20px;
-}
-
-.imgCard {
-  width: 90px;
-  height: 60px;
-}
-
-.cuerpoTabla {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  width: 800px;
 }
